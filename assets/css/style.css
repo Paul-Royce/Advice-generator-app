@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: hsl(219, 18%, 22%);}
+
+
+main {
+    position: relative;
+    background-color: hsl(216, 18%, 29%);
+    font-family: 'Manrope', sans-serif;
+    box-shadow: 10px 12px 15px 8px rgb(41, 41, 41);
+    width: 450px;
+    min-height: 100px;
+    padding: 2.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem; 
+}
+
+h1 {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+}
+
+p {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    margin: 0.5rem 1rem;
+}
+
+ #divider {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dice-ctnr {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    padding: 0.9rem;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.shadow {display: none;}
+
+#dice {
+    width: 80%;
+}
+
+.dice-ctnr:hover {
+    box-shadow: 0 0 2.4em 0 hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 400px) {
+    main {
+        width: 85%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    margin-top: 1.7rem;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { color: hsl(231, 100%, 67%); }
